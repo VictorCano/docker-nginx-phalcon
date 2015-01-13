@@ -1,0 +1,14 @@
+{
+    "containers": {
+        "phalcon":  {
+            "image": "victorcano/phalcon",
+            "run": {
+                "publish": ["80:80"],
+                "tty": true,
+                "interactive": true,
+                "volume": ["/var/www:/var/www"],
+                "detach": true
+            }
+        }
+    }
+}
