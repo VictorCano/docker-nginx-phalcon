@@ -6,4 +6,7 @@ bash -c "`curl -sL https://raw.githubusercontent.com/michaelsauter/crane/master/
 
 mkdir -p /var/www/public
 
+apt-get install git -y
+git clone https://github.com/VictorCano/docker-nginx-phalcon.git .
+
 crane lift
