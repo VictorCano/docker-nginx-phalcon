@@ -7,7 +7,7 @@ bash -c "`curl -sL https://raw.githubusercontent.com/michaelsauter/crane/master/
 mkdir -p /var/www/public
 
 apt-get install git -y
-git clone https://github.com/VictorCano/docker-nginx-phalcon.git
+git clone https://github.com/Cazamba/docker-nginx-phalcon.git
 
 cd ./docker-nginx-phalcon
 
