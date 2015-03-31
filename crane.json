@@ -1,7 +1,7 @@
 {
     "containers": {
         "phalcon":  {
-            "image": "victorcano/docker-nginx-phalcon",
+            "image": "cazamba/docker-nginx-phalcon",
             "run": {
                 "publish": ["80:80"],
                 "tty": true,
