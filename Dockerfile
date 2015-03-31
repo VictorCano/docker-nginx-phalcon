@@ -7,7 +7,7 @@ RUN apt-get install php5-memcached php5-xdebug php-apc php5-imagick php5-gd php5
 RUN apt-get install php5-fpm nginx -y
 RUN pecl install mongo -y
 
-RUN git clone --depth=1 http://github.com/phalcon/cphalcon.git -b 1.2.3 cphalcon
+RUN git clone http://github.com/phalcon/cphalcon.git cphalcon
 RUN cd cphalcon/build && ./install;
 
 
